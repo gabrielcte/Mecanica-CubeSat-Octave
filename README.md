@@ -9,9 +9,9 @@ O intuito do modelo é ser uma base para uso de interessados no assunto e tem um
 
 Foi usado o Octave como linguagem de programação, por ser uma alternativa OpenSource e ter similaridade com o Matlab, que é amplamente usada no setor aeroespacial. Se viu necessário tambem o uso de pacotes extras, que não foram desenvolvidos pelo autor. A seguir os links para baixar essa ferramenta e os adicionais:
 
-[GNU Octave](https://octave.org/)
+[GNU Octave](https://octave.org/);
 
-[GNU Octave: extra packages](https://octave.sourceforge.io/)
+[GNU Octave: extra packages](https://octave.sourceforge.io/).
 
 ## Bibliografia Utilizada
 
@@ -26,6 +26,8 @@ As formulações para a mecânica orbital e mecânica de dois corpos é muito gr
 
 -> Space Vehicle Dynamics and Control, Bong Wie, American Institute of Aeronautics and Astronautics, Inc, 2008;
 
+-> Engenharia de Controle Moderno, Katsuhiko Ogata, Peason Education, 2010.
+
 
 ## Desenvolvimento
 
@@ -33,14 +35,33 @@ As formulações para a mecânica orbital e mecânica de dois corpos é muito gr
 Para o desenvolvimento das formulações mecanicas foram escolhidos os senguintes sistemas de coordenada:
 
 -> Sistema de Coordenadas Geocentrico-Equatorial Inercial;
--> Sistema de Coordenadas Orbital;
--> Sistema de Coordenadas Fixo no Corpo;
--> Sistema de Coordenadas Geográficas
 
-Sistema de referencia de tempo:
+-> Sistema de Coordenadas Orbital;
+
+-> Sistema de Coordenadas Fixo no Corpo;
+
+-> Sistema de Coordenadas Geográficas;
+
+Sistema de referencia de tempo.
 
 -> J2000: Definido como o equador médio e equinocio médio às 12:00 do Tempo Terrestre no dia 1º de Janeiro de 2000.
 
-## Stanford Honor Code
+### Dinamica de Atitude
 
-"We strongly encourage students to form study groups, and discuss the lecture videos (including in-video questions). We also encourage you to get together with friends to watch the videos together as a group. However, the answers that you submit for the review questions should be your own work. For the programming exercises, you are welcome to discuss them with other students, discuss specific algorithms, properties of algorithms, etc.; we ask only that you not look at any source code written by a different student, nor show your solution code to other students."
+-> Matriz de Cossenos Diretores;
+
+-> Angulos de Euler;
+
+-> Eixo-Angulo de Euler;
+
+-> Parâmetros de Euler (Quaternions);
+
+-> Equações Diferenciais da Cinemática;
+
+-> Dinâmica de Corpo Rígido Genérico Livre de Torques;
+
+-> Corpo Rígido em Órbita.
+
+### Técnica de Controle
+
+-> Controlado Proporcional Integral Derivatico.
