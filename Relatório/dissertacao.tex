@@ -1,0 +1,85 @@
+\documentclass[12pt,openright,twoside,a4paper,brazil,english]{abntex2}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lastpage}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{graphicx,graphicx}
+\usepackage{epsfig,subfig}
+\usepackage{microtype}
+\usepackage{lipsum}	
+\usepackage{amsmath,amssymb,mathrsfs}
+\usepackage{setspace}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{afterpage}
+\usepackage{url} 
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[alf]{abntex2cite}
+\include{extras/conf_citacoes}
+\include{extras/dados}
+\include{extras/conf_pdf}
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+\makeindex
+\begin{document}
+\frenchspacing
+\pretextual
+\include{pretextual/capa}
+
+\imprimirfolhaderosto*
+
+\include{pretextual/catalografica}
+\include{pretextual/assinaturas}
+\include{pretextual/dedicatoria}
+\include{pretextual/agradecimentos}
+\include{pretextual/epigrafe}
+\include{pretextual/resumos}
+% Lista de ilustrações
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+% Lista de tabelas
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+
+% Lista de abreviaturas e siglas
+\begin{siglas}
+  \item[ABNT] Associação Brasileira de Normas Técnicas
+  \item[abnTeX] Normas para TeX
+\end{siglas}
+
+% Lista de símbolos
+\begin{simbolos}
+  \item[$ \Gamma $] Letra grega Gama
+  \item[$ \Lambda $] Lambda
+  \item[$ \zeta $] Letra grega minúscula zeta
+  \item[$ \in $] Pertence
+\end{simbolos}
+
+% Inserir o SUMÁRIO
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+\textual
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\include{capitulos/introducao}
+\part{Preparação da pesquisa}
+\include{capitulos/referencias}
+\include{capitulos/estadodaarte}
+\include{capitulos/fundamentacaoteorica}
+\include{capitulos/ferramentas}
+\part{Proposta}
+\include{capitulos/proposta}
+\part{Parte Final}
+\include{capitulos/resultados}
+\include{capitulos/conclusao}
+\postextual
+\bibliography{bibliografia}
+\include{postextual/apendices}
+\include{postextual/anexos}
+\end{document}

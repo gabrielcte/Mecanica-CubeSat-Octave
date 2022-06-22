@@ -1,0 +1,41 @@
+\chapter{Revisão Literária}
+
+Esse capítulo está dedicado em apresentar e comentar brevemente a literatura empregada no desenvolvimento deste trabalho. São divididas em três tipos, de acordo com sua utilidade:
+
+\section{Obras de exploração temática:}
+
+Mediante a amplitude dos temas abordados na engenharia aeroespacial e ainda da área de Dinâmica e Controle, as seguintes obras são de onde o estudo prospectou a problemática e o tema a ser analisado:
+
+Do periódico IEEE-AESM de volume 35 número 3, referente ao mês de março de 2020. Foi uma edição especial com editores convidados do JPL, do Centro Espacial de Surrey da Universidade de Surrey e da Universidade do estado da Califórnia. Para apresentar o potencial dos CubeSats que a Nasa ofereceu lançar  como carga paga da missão teste do Artemis I. Nesta edição destaca os planos de diversas universidades e centros de pesquisa ao redor do mundo em usar os CubeSat em diversos tipos de missão, incluindo, exploração de asteroides, mapeamento e estudo do espaço profundo. O que auxiliou no desenvolvimento da problemática aqui trabalhada.
+
+Das apresentações dos planos Artemis revisão 2020 e Plano Mars and Beyond revisão 2022. Atualmente os dois nomes mais famosos na exploração espacial, desses documentos, retira-se as tendências e sub tendências para o mercado aeroespacial do mundo.
+
+ O Resumo Executivo CubeSats, CGEE, 2018, oferece uma apresentação clara sobre de onde vieram os CubeSats, quais foram seus propósitos na época e atualmente, definições técnicas entre outras informações necessárias para o real entendimento dessa plataforma tecnológica.
+ 
+Das colunas: NASA Space Launch System’s First Flight to Send Small Sci-Tech Satellites Into Space - fevereiro de 2016; JPL  MarCo - revisão 2022; IEEE Spectrum Nasa’s Space Launch System will lift off, but with rival rockets readying for flight, the value of SLS is murky; Canaltech: Satélite criado por startup brasileira será lançado pela SpaceX em 2022 - dezembro de 2021. Oferecem uma perspectiva temporal dos acontecimentos envolvendo os tópicos encontrados nas leituras supracitadas, uma noção de atualidade que acaba se perdendo nos periódicos.
+
+Na apresentação: O Desenvolvimento de CubeSats no Brasil - INPE - SeCiAer 2018, Apresentada no seminário de serviços científicos e aeronáuticos de 2018, oferece de forma visual e resumida as iniciativas dos diversos atores brasileiros na exploração espacial com o uso da plataforma CubeSats, incluindo dados como Nome, anos, missão e um resumo e resultado dessas iniciativas.
+
+Explorando os endereços eletrônicos oficiais das empresas PION-Labs, Nanoavionics, Blue Canyon, é prospectado informações relevantes   das plataformas, dispositivos e missões que essas plataformas serão utilizadas, esclarecendo assim a posição que startups e pequenas empresas ocupam nesse mercado.
+
+\section{Obras do estado da arte:}
+
+O entendimento do estado da arte é apresentado a seguir na seara do Estado da Arte, onde serão explorados os assuntos relacionados e estado atual de tais assuntos. Foi usado de referência:
+
+CubeSat 101: Basic Concepts and Processes for First-Time CubeSat Developers, outubro de 2017, que explica de forma mais técnica como é feito um CubeSat, tamanhos e parâmetros a se atentar. Leitura fundamental e primária para entender a plataforma tecnológica.
+
+Dos artigos e trabalhos académicos Development of models for Attitude Determination and Control System components for CubeSat applications; Sistema de Controle de Atitude Proposto para a Missão Espacial SERPENS II. Análise Comparativa de Técnicas de Controle de Atitude Aplicadas à Simulação de uma Planta Baseada nos Satélites do Tipo CubeSat. Foram as bases para a reprodução e aplicação do conhecimento adquirido pelo estudo do referencial teórico.
+
+\section{Obras para referencial teórico:}
+
+Os aspectos teóricos das seguintes referências, são aprofundados na Fundamentação Teórica. Ademais segue uma explicação de como cada capítulos e seções são estruturados e utilizados nessa fundamentação, trazendo algumas considerações.
+
+O livro, Attitude Stabilization for CubeSats - Mohammed Chessab Mahdi, é a espinha do presente estudo. Como expõe de forma didática e centralizada informações especializadas para a plataforma de CubeSats se alinha com as motivações e objetivos para o trabalho. O capítulo 3 é usado  na modelagem da dinâmica de atitude do satélite, o capítulo 4 refere-se ao sistema de controle, assim as seções 4.1 a 4.3 que se referem ao controle proporcional integral e derivativo fundamentam o modelo de controle aqui desenvolvido finalmente o capítulo 5 que se trata da simulação desse sistema de controle e modelo em MATLAB e SIMULINK nas seções 5.1 e 5.2 se mostram úteis para a obtenção e análise de dados.
+
+Vale a seguinte consideração sobre a referência citada imediatamente acima: Ao longo do estudo o autor do atual trabalho mesmo aplicando cuidadosamente as técnicas e formulações apresentadas no livro, não alcançou de forma confiável os resultados apresentados. Separando assim, uma subsecção na metodologia, para exploração do acontecido.  
+
+Mediante à incerteza da consideração acima, por precaução e redundância foi utilizado o livro Space Vehicle Dynamics and Control, Bong Wie, aferir e complementar o desenvolvimento teórico do livro anterior. O Capítulo 2 das seções 2.1 a 2.3 conferem o sistema de controle dinâmico. O capítulo 3 das seções 3.4 a 3.7 conferem o modelo dinâmico referente a órbita do suposto satélite, tal modelo é utilizado nas seções seguintes, o capítulo 5 é completamente usado para o entendimento do equacionamento da dinâmica rotacional usado a seguir no capítulo 6 do qual foi retirado das seções 6.1 a 6.11 a validação do modelo dinâmico do satélite, por fim o capítulo 7 da seção  7.1 a 7.2 vem os equacionamentos para o sistema de controle, tanto magnético quando por rodas de momento.
+
+Acompanhando esses modelos dinâmicos, para a modelagem mais fidedigna da roda de reação e torqueadores magnéticos é usado o clássico, Spacecraft Attitude Determination and Control editado pelo Wetz, tópicos referenciados nos capítulos 6 seção 6.6 e 6.7 e juntamente o  capítulo  7 seções 7.5 e 7.9.
+
+Para o desenvolvimento do sistema de controle proporcional, integral e derivativo, é usado o livro Engenharia de Controle Moderno, do  Ogata, o capítulo 8 que se referente ao projeto de controladores PID.

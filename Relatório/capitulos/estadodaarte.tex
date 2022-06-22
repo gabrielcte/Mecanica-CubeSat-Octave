@@ -1,0 +1,47 @@
+\chapter{Estado da Arte}\label{cap:Estadp da Arte}
+\section{CubeSats}\label{sec:CubeSats}
+CubeSat são nanosatélites com normas rígidas de padronização. Desenvolvidos pela colaboração entre Puig-Suari, professor da Universidade Estadual Politécnica da Califórnia e Bob Twiggs, professor da Universidade de Stanford, com o intuito de acessibilizar o espaço. Essa plataforma apesar de apresentar uma variedade de tamanhos, todas se baseiam na unidade padrão de CubeSat, mais conhecida como 1U.
+
+Uma unidade padrão de CubeSat, 1U, refere-se a um cubo de 10cm de arestas e a massa entre 1kg e 1.33kg. As demais configurações se devem à união ou adaptação dessa unidade. Por exemplo, um CubeSat 2U tem dimensões de massa de dois 1U conectados, 3U segue a mesma lógica só que três unidades 1U conectadas longitudinalmente. Essas configurações devem levar em consideração qual será o Sistema Dispensador de CubeSats, CubeSat Dispenser Systems.
+
+O Sistema Distribuidor de CubeSats é a interface que conecta o CubeSat com o veículo lançador. Suas principais funções são fixação no veículo lançador, proteção do CubeSat durante o lançamento e liberação do mesmo no espaço no momento apropriado. Os mais comuns são o Dispensador 3U, e depois do sucesso da plataforma foi concebido em 2014, o Dispensador 6U, no referente tempo em que esse trabalho foi escrito tem-se Dispensadores para configurações ainda maiores.
+
+O Biosentinel é um CubeSat 6U que estuda o comportamento de compostos orgânicos no espaço.  O Equuleus outro 6U estuda o ponto lagrangeano Terra-Lua L2 e testa um sistema de propulsão por jatos de água combinado com um sistema de determinação e controle de atitude de prateleira da Blue Canyon. O Serperns II com configuração 3U, é uma plataforma de capacitação de alunos e profissionais da área.
+
+A NanoAvionics é um exemplo de empreendedorismo privado na área de nano e micro satélites. Começando sua história com um cubesat 1U e desenvolvendo tecnologia, acúmulo de conhecimento e crescimento iterativo. Foram desenvolvidos satélites multiuso: M3P, M6P, M12P e M16P e paulatinamente demonstrando o domínio da tecnologia dos padrões CubeSat 3U, 6U, 12U e 16U. Atualmente  oferece a plataforma comercial  do microssatélite MP42 modular (até 115kg).
+
+Realizou em 2015, junto com o Centro Nacional de Ciências Físicas e Tecnologia da Lituânia, um projeto de materiais catalíticos para sistemas de propulsão monopropelente miniaturizados. Em 2018 esta empresa especializada em soluções para missões de satélites, sendo elas de propósito comercial ou científica, teve AST 'I\&' Science adquirindo o  seu controle acionário e recebendo em 2019 a bolsa Horizon 2020 da UE e da ESAA.
+
+O modelo de negócio da Nanoavionics vem sendo protagonizado no Brasil pela PION, primeira empresa privada brasileira a lançar um CubeSat. Atualmente eles dominam a tecnologia 1U e comercializam modelos educacionais.
+
+O desenvolvimento de um CubeSat depende completamente da missão na qual vai empenhar. Focando no documento base do assunto “CubeSat 101 Basic Concepts and Processes for First-Time CubeSat Developers” um CubeSat pode levar da fase conceitual até ser entregue para o lançamento de nove a vinte e quatro meses. Sua missão irá definir  os requisitos de órbita, lançadores, e componentes.
+
+ De todas as missões da Iniciativa de Lançamento de CubeSat (Nasa CSLI), metade conduzem missões científicas, sessenta e seis por cento conduzem demonstrações de tecnologia. Como exemplo temos: testes biológicos no espaço, estudo de objetos próximos da Terra NEO, comunicação entre CubeSats, navegação e controle, teste de radiação e ambiente espacial, entre outros. Cada missão terá parâmetros diferentes para os subsistemas do veículo espacial.
+ 
+Para o desempenho adequado do Sistema de Determinação e Controle de Atitude é necessário a escolha correta de sensores, atuadores de algoritmos controladores. Existe no mercado uma ampla gama de sensores, atuadores e até ADCS completamente integrados, também existe a possibilidade da produção interna desses componentes para redução de custos.
+
+ Os torqueadores magnéticos usados no PION-BR1 e o SERPENS II, são os atuadores para o controle de atitude mais utilizados em CubeSats. Isso devido à possibilidade de produção interna, ao valor e tamanho relativamente menores. O que o torna mais favorável para missões simples e configurações menores. Esses torqueadores são pouco precisos (5 a 10 graus de precisão de apontamento) e ficam inoperantes em ambientes de campo magnético tênue ou inexistente, como por exemplo ao passar pela região dos pólos.
+ 
+ Para missões mais críticas, complexas, precisas e com configurações maiores. Podendo ser em volta da Terra ou até mesmo interplanetárias, os torqueadores magnéticos são substituídos por rodas de reação, essas são muito mais pesadas e aumentam consideravelmente o valor do CubeSat. São usadas por exemplo em CubeSats maiores como o 3U nanosatellite bus M3P, os 6U Equuleus e BioSentinel até mesmo o 16U nanosatellite bus M16P / M16P-R.
+ 
+\section{O que é o sistema de determinação e controle de Atitude (ADCS)}\label{sec:O que é o sistema de determinação e controle de Atitude (ADCS)}
+
+Para qualquer missão espacial, existe um estado desejado específico para a atitude do satélite. Para manter a operação do CubeSat dentro desse envelope de funcionamento, é utilizado dispositivos que medem essa diferença angular, a taxa de variação dessa diferença e acionam elementos que provocam momentos angulares corrigindo o estado para um desejado.
+
+Existem no mercado diversos dispositivos que oferecem soluções para a determinação ou controle de atitude. Temos por exemplo o XACT-50 da Blue Canyon Technologies que é um sistema integrado que oferece solução completa de determinação de atitude, e controle por meio de rodas de reação.
+
+Sendo essas duas supracitadas, determinação de atitude e controle de atitude duas faces diferentes do mesmo problema. Assim, além de soluções integradas, são vendidas soluções específicas, como sensores, atuadores, placas controladoras, entre outros.
+
+\section{Estratégia magnética}\label{sec:Estratégia magnética}
+Os torqueadores magnéticos são atuadores comuns para CubeSats, são fáceis de produzir e também há uma variedade grande no mercado.
+
+Existem dois modelos principais, aqueles instalados em placas, e aqueles instalados nas extremidades ou em volta do CubeSat. Por exemplo, os vendidos pela CubeSat Shop: CubeTorquer and CubeCoil, ISIS Magnetorquer board, EXA MT01 Compact Magnetorquer, NCTR-M002 Magnetorquer Rod. 
+
+Todos são fios de cobre enrolados em formato de bobinas, quando uma corrente elétrica passa por esses fios, um campo magnético é gerado e o que ger um momento magnético de controle.
+
+\section{Estratégia de transferência de momento angular}\label{sec:Estratégia de transferência de momento angular}
+Rodas de reação são dispositivos atuadores comuns para o controle de atitude de veículos espaciais em geral, essas  baseiam seu funcionamento na  transferência de momento angular, costumam ser arranjadas em três unidades para controlar a rotação nos três eixos.
+
+ Por permitirem a correção de atitude com precisão, estes dispositivos têm operação mais complexa e são mais custosos. Apenas missões onde os requisitos do apontamento são mais sensíveis, costumam se utilizar esses atuadores. Por isso, como mencionado anteriormente, elas são menos comuns em CubeSats.
+ 
+ Contudo, com missões mais rebuscadas, envolvendo exploração interplanetária, esses dispositivos vêm se tornando mais comuns, até comercializados,  a SatBus 4RW0 é um conjunto de 4 rodas de reação desenvolvidas pela NanoAvionics para seus CubeSats (M3P ao M16P) que podem ser encomendadas, permitindo o apontamento preciso para missões de alto nível, CubeSat Shop oferece a CubeWhell modelos de roda de reação avulso, e tem-se também a Blue Canyon com sistemas completamentes integrados de ADTC com rodas de reação acopladas.

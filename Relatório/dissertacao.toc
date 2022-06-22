@@ -1,0 +1,104 @@
+\changetocdepth {4}
+\babel@toc {english}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Introdução}{1}{chapter*.17}%
+\contentsline {section}{Motivação:}{2}{section*.18}%
+\contentsline {section}{Objetivo:}{3}{section*.19}%
+\contentsline {part}{\partnumberline {I}\MakeTextUppercase {Preparação da pesquisa}}{5}{part.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Revisão Literária}}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Obras de exploração temática:}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Obras do estado da arte:}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Obras para referencial teórico:}{8}{section.1.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Estado da Arte}}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}CubeSats}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}O que é o sistema de determinação e controle de Atitude (ADCS)}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Estratégia magnética}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Estratégia de transferência de momento angular}{13}{section.2.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Fundamentação Teorica}}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Sistemas de Coordenadas e medida do tempo}{15}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Sistema de coordenadas geocêntrico-equatorial inercial }{15}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Sistema de coordenadas orbital}{15}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Sistema de coordenadas fixo no corpo}{17}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Mecânica Orbital}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Problema de dois corpos}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Determinação dos elementos orbitais pelos vetores posição e velocidade}{17}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Dinâmica de Atitude}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Matriz de cossenos diretores}{17}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Ângulos de Euler}{17}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Eixo-Angulo de Euler}{17}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Parâmetros de Euler - Quatérnions}{17}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Equações Diferenciais da Cinemática}{17}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Formulação Geral da Dinâmica de Corpo Rígido}{17}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Corpo Rígido em Órbita Circular}{17}{subsection.3.3.7}%
+\contentsline {section}{\numberline {3.4}Determinação e Controle de Atitude}{17}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Algorítimo TRIAD}{17}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Filtro de Kalman}{17}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Técnica de Controle Proporcional Integral Derivativa}{17}{subsection.3.4.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Materiais e Métodos}}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sistemas de Referência Orbita, Corpo e Inercial Equatorial Centrado na Terra}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Fomulação de Newton-Kepler para Órbita}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Dinâmica Rotacional de Corpo Rígido de Newton-Euler}{19}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Controle Proporcional, Integral, Derivativo}{20}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Integração Numerica}{20}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Octave}{20}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Matlab}{20}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Simulink}{21}{section.4.8}%
+\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Proposta}}{23}{part.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Sistema Proposto}}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Posição, velocidade, elementos e trajetória orbitais}{25}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Abordagem Analítica para Trajetória Orbital}{25}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Abordagem Númerica para Trajétoria Orbital}{25}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Reprodução da bibliografia "Attitude Stabilization for CubeSats: Concepts and Technology", Mahdi}{26}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Capítulo 3: Modelagem da Dinâmica de Atitude de um Satélite}{26}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Capítulo 5:Técnicas de Simulação do Controle de Atitude}{26}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Discrepâncias}{26}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Formulação didática de Modelo de atitude e controle de CubeSat}{27}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Modelo da Dinâmica de Atitude de um Satélite}{27}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Simulação de controle PID de Atitude}{27}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Possíveis Formulações}{27}{subsection.5.3.3}%
+\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Parte Final}}{29}{part.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados e Discussão}}{31}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Base de Dados}{31}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Considerações Finais}{31}{section.6.2}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Conclusão e Trabalhos Futuros}{33}{chapter*.26}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {Bibliography}}{35}{section*.31}%
+\renewcommand *{\cftappendixname }{APPENDIX \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Appendix}}{37}{section*.32}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Primeiro Apêndice}}{39}{appendix.A}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Segundo apêndice com título tão grande quanto se queira porque ele já faz a quebra de linha da coisa toda}}{41}{appendix.B}%
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANNEX \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Annex}}{43}{section*.33}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Nome do Primeiro Anexo}}{45}{appendix.anexochapback.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Nome de Outro Anexo}}{47}{appendix.anexochapback.2}%
